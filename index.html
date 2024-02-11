@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="1677266.jpg"
+</head>
+
+<body>
+    <div class="navbar">
+        <center><h1>NOTES</h1></center>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>NotePad Of Afran</h2>
+            <h5>From Iphone 11 : </h5>
+            <p>Notepad is a simple text editor program primarily used for creating and editing plain text files. It's a basic utility software that comes pre-installed with Microsoft Windows operating systems. Notepad offers a minimalist interface with limited formatting options, making it suitable for quick note-taking, coding, or editing configuration files. Despite its simplicity, it serves as a versatile tool for various tasks, including writing scripts, jotting down ideas, or drafting simple documents. While lacking advanced features found in more sophisticated text editors, Notepad remains a popular choice for its lightweight design and ease of use.
+
+
+
+
+            </p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>ADD NOTES</h2>
+        <form>
+            <input type="text" placeholder="Note Tittle" id="book-tittle-input">
+            <input type="text" placeholder="Note Captions" id="book-author-input">
+            <textarea placeholder="Type Notes" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
